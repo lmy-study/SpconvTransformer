@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Datasets
+data/
+datasets/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Training outputs and logs
+output/
+outputs/
+logs/
+runs/
+wandb/
+tensorboard/
+events.out.tfevents.*
+
+# Temporary files
+*.log
+*.tmp
+*.swp
